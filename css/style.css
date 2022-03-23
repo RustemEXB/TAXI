@@ -101,6 +101,7 @@ h6 {
 body {
   font-family: "Lato";
   font-weight: 900;
+  overflow-x: hidden;
 }
 body._lock {
   overflow: hidden;
