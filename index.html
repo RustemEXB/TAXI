@@ -1,0 +1,303 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>ТРЕНИРОВКА</title>
+	<!-- Подключаем CSS -->
+	<!--Hover эффект-->
+	<link href="css/hover.css" rel="stylesheet" media="all">
+	<!--Основной css файл-->
+	<link rel="stylesheet" href="css/style.css" />
+	<!--Анимация при скролле-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<!-- Кодировка страницы -->
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<meta name="viewport" content="width=device-width">
+
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+	<div class="body">
+		<div class="header">
+			<a href="#" class="header__link">
+				<img src="img/logo_header.png" alt="#" class="header__logo hvr-shrink">
+			</a>
+			<div class="header__menu menu">
+				<div class="header__burger">
+					<span></span>
+				</div>
+				<div class="header__nav">
+					<a href="#" class="header__nav-link">Home</a>
+					<a data-goto=".order" href="#" class="header__nav-link">Order </a>
+					<a data-goto=".tariffs" href="#" class="header__nav-link">Tarrifs</a>
+					<a data-goto=".advantages" href="#" class="header__nav-link">Advantages</a>
+					<a data-goto=".download" href="#" class="header__nav-link">Download</a>
+					<a data-goto=".footer" href="#" class="header__nav-link">Contacts</a>
+				</div>
+			</div>
+		</div>
+		<div class="main">
+			<div class="container">
+				<div class="offer">
+					<p class="offer__title">Book Cab Now</p>
+					<a href="tel:+79095557408" class="offer__subtitle">+123 4567 8900</a>
+					<div class="offer__img_wrap animate__animated animate__fadeInUp">
+						<img src="img/car.png" alt="" class="offer__img">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="order">
+		<div class="container">
+			<div class="order__wrapper">
+				<div class="order__description animate__animated animate__fadeInLeft">
+					<p class="order__description-title">Best In City</p>
+					<p class="order__description-subtitle">Trusted Cab Servies
+						in New York
+					</p>
+					<p class="order__description-text">
+						Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur
+						dapibus pulvinar, sapien eros sodales ante, euismod aliquet nulla metus a mauris.Quisque sollicitudin
+						feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur dapibus pulvinar, sapien
+						eros sodales ante, euismod aliquet nulla metus a mauris.
+					</p>
+
+					<a href="" class="order__desctiption-btn hvr-float-shadow">Read More</a>
+
+				</div>
+				<div class="order__active animate__animated animate__fadeInRight">
+
+					<form action="" class="order__form">
+						<p class="order__active-title">Book a <span class="_yellow">Cab</span></p>
+						<div class="order__form-body">
+							<input type="text" class="order__input" placeholder="Name">
+							<input type="tel" class="order__input" placeholder="Phone">
+							<input type="text" class="order__input" placeholder="When">
+							<input type="text" class="order__input" placeholder="Time">
+							<input type="text" class="order__input" placeholder="Start">
+							<input type="text" class="order__input" placeholder="End">
+							<input type="text" class="order__input _big" placeholder="Choose Vehicle">
+							<a href="#" class="order__btn">Submit</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="tariffs">
+		<div class="container">
+			<p class="tariffs__title"><span class="_yellow">Our</span><br>Tariffs</p>
+			<div class="tariffs__wrapper">
+				<div class="economy animate__animated animate__fadeInLeft">
+					<img src="img/car_mini.png" alt="" class="economy__img _img ">
+					<p class="economy__title _title">Economy Class</p>
+					<p class="economy__text _text">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus
+						hendrerit, massa efficitur.</p>
+					<p class="economy__price _price">$1,5/mi</p>
+					<a href="" class="economy__btn _btn hvr-float-shadow">Read More</a>
+				</div>
+				<div class="standard animate__animated animate__fadeInUp">
+					<img src="img/car_mini.png" alt="" class="standard__img _img">
+					<p class="standard__title _title">Standard Class</p>
+					<p class="standard__text _text">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus
+						hendrerit, massa efficitur.</p>
+					<p class="standard__price _price">$1,5/mi</p>
+					<a href="" class="standard__btn _btn hvr-float-shadow">Read More</a>
+					<img src="img/star.png" alt="" class="tariffs__star">
+				</div>
+				<div class="business animate__animated animate__fadeInRight">
+					<img src="img/car_mini.png" alt="" class="business__img _img ">
+					<p class="business__title _title">business Class</p>
+					<p class="business__text _text">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus
+						hendrerit, massa efficitur.</p>
+					<p class="business__price _price">$1,5/mi</p>
+					<a href="" class="business__btn _btn hvr-float-shadow">Read More</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="advantages">
+		<div class="container">
+			<p class="_yellow _yellow_advantages">We Do Best</p>
+			<p class="advantages__text">Than You Wish</p>
+			<div class="advantages__wrapper">
+				<div class="advantages__pickup _flex animate__animated animate__fadeInLeft">
+					<div class="advantages__pickup-img">
+						<img src="img/star_black.png" alt="" class="advantages__img">
+					</div>
+					<div class="advantages__text-wrapper">
+						<p class="advantages__title">Home Pickup</p>
+						<p class="advantages__subtitle">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.
+							Phasellus hendrerit, massa efficitur.</p>
+					</div>
+				</div>
+				<div class="advantages__booking _flex animate__animated animate__fadeInRight">
+					<div class="advantages__booking-img">
+						<img src="img/fast.png" alt="" class="advantages__img">
+					</div>
+					<div class="advantages__text-wrapper">
+						<p class="advantages__title">Fast booking</p>
+						<p class="advantages__subtitle">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.
+							Phasellus hendrerit, massa efficitur.</p>
+					</div>
+				</div>
+				<div class="advantages__bonuses _flex animate__animated animate__fadeInLeft">
+					<div class="advantages__bonuses-img">
+						<img src="img/castle.png" alt="" class="advantages__img">
+					</div>
+					<div class="advantages__text-wrapper">
+						<p class="advantages__title">Bonuses for ride</p>
+						<p class="advantages__subtitle">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.
+							Phasellus hendrerit, massa efficitur.</p>
+					</div>
+				</div>
+				<div class="advantages__gps _flex animate__animated animate__fadeInRight">
+					<div class="advantages__gps-img">
+						<img src="img/search.png" alt="" class="advantages__img">
+					</div>
+					<div class="advantages__text-wrapper">
+						<p class="advantages__title">GPS searching</p>
+						<p class="advantages__subtitle">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.
+							Phasellus hendrerit, massa efficitur.</p>
+					</div>
+				</div>
+			</div>
+			<a href="#" class="advantages__btn hvr-float-shadow">Read More</a>
+		</div>
+	</section>
+	<section class="download">
+		<div class="container">
+			<p class="download__title _yellow">Download</p>
+			<p class="download__subtitle">Best Cab Servies</p>
+			<div class="download__wrapper ">
+				<div class="download__offer animate__animated animate__fadeInLeft">
+					<p class="download__title2">Downlaod the Cab voucher app free!
+						Get Exciting New Offers
+					</p>
+					<p class="download__text">
+						Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.
+					</p>
+					<div class="download__icons">
+						<a href="#" class="download__icons-link"><img src="img/googlePay.png" alt=""
+								class="download__google hvr-float-shadow"></a>
+						<a href="#" class="download__icons-link"><img src="img/appStore.png" alt=""
+								class="download__apple hvr-float-shadow"></a>
+					</div>
+				</div>
+				<div class="wrapper__img animate__animated animate__fadeInRight">
+					<img src="img/smartphone2.png" alt="" class="download__img">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="reviews">
+		<div class="container">
+			<p class="reviews__title _yellow">Happy Client's</p>
+			<p class="reviews__subtitle">Testimonials</p>
+			<div class="reviews__wrapper">
+				<div class="reviews__reviews1 animate__animated animate__fadeInLeft">
+					<p class="reviews__text">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus
+						hendrerit, massa efficitur.Quisque sollicitudin feugiat risus.</p>
+					<div class="reviews__people">
+						<img src="img/john.png" alt="" class="reviews__img">
+						<div class="reviews__description">
+							<p class="reviews__name">John Doe</p>
+							<p class="reviews__profession">Business man</p>
+						</div>
+					</div>
+				</div>
+				<div class="reviews__reviews2 animate__animated animate__fadeInRight">
+					<p class="reviews__text">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus
+						hendrerit, massa efficitur.Quisque sollicitudin feugiat risus.</p>
+					<div class="reviews__people">
+						<img src="img/john.png" alt="" class="reviews__img">
+						<div class="reviews__description">
+							<p class="reviews__name">John Doe</p>
+							<p class="reviews__profession">Business man</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="number">
+		<div class="container">
+			<div class="number__wrapper">
+				<p class="number__title">We are Ready to Take Your Call 24 Hours, 7 Days!</p>
+				<a href="tel:+79095557408" class="number__link">
+					<p class="number__number">+123 4567 8900</p>
+				</a>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__wrapper">
+				<div class="footer__about animate__animated animate__fadeInLeft">
+					<p class="footer__title">About cab Hub</p>
+					<div class="footer__rectangle"></div>
+					<p class="footer__text">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus
+						hendrerit, massa efficitur.Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.</p>
+					<div class="footer__about-img">
+						<a href="#" class="footer__about-link hvr-grow"><img src="img/footer_Facebook.svg" alt=""
+								class="footer__facebook"></a>
+						<a href="#" class="footer__about-link hvr-grow"><img src="img/footer_Google_Plus.svg" alt=""
+								class="footer__google"></a>
+						<a href="#" class="footer__about-link hvr-grow"><img src="img/footer__Twitter.svg" alt=""
+								class="footer__twitter"></a>
+						<a href="#" class="footer__about-link hvr-grow"><img src="img/footer_Instagram.svg" alt=""
+								class="footer__instagram"></a>
+					</div>
+				</div>
+				<div class="footer__download animate__animated animate__fadeInUp">
+					<p class="footer__title">Download</p>
+					<div class="footer__rectangle"></div>
+					<p class="footer__text">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit
+					</p>
+					<div class="footer__android">
+						<a href="" class="footer__android-link hvr-shrink">
+							<p class="footer__android-text">Android Users</p>
+							<img src="img/footer__android.PNG" alt="" class="footer__android-img"
+								style="width: 23px; height: 23px;">
+						</a>
+					</div>
+					<div class="footer__ios">
+						<a href="" class="footer__ios-link hvr-shrink">
+							<p class="footer__ios-text">IOS Users</p>
+							<img src="img/footer__apple.png" alt="" class="footer__ios-img">
+						</a>
+					</div>
+				</div>
+				<div class="footer__contact animate__animated animate__fadeInRight">
+					<p class="footer__title">Contact</p>
+					<div class="footer__rectangle"></div>
+					<div class="footer__location hvr-shrink">
+						<img src="img/footer__location.png" alt="" class="footer__location-img contact-img">
+						<a href="" class="footer__text contact-text">+123, Main Street, Your City, New York, USA, 789456</a>
+					</div>
+					<div class="footer__number hvr-shrink">
+						<img src="img/footer__mobile.png" alt="" class="footer__number-img contact-img">
+						<a href="tel:+79095557408" class="footer__text contact-text">+123 4567 8900</a>
+					</div>
+					<div class="footer__mail hvr-shrink">
+						<img src="img/footer__message.png" alt="" class="footer__mail-img contact-img">
+						<a href="mailto:taxi@gmail.com" target="_blank" class="footer__text contact-text">taxi@gmail.com</a>
+					</div>
+					<div class="footer__website hvr-shrink">
+						<img src="img/footer__cursor.png" alt="" class="footer__cursor-img contact-img">
+						<a href="http://taxi.com" target="_blank" class="footer__text contact-text">www.taxi.com</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
